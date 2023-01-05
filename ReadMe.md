@@ -15,5 +15,6 @@ Description of components:
 
 How to Run: 
     >Navigate to Linux cmd prompt and execute `chmod +x cloud-build.sh` to convert to an executable
-    > triggers the conversion and execution of the quickstart.sh shell script into an executable 
-    > builds and pushes the Docker container image in Cloud Build
+        > triggers the conversion and execution of the quickstart.sh shell script into an executable 
+        > builds and pushes the Docker container image in Cloud Build
+    > type ./cloud-build.sh to run the executed file
