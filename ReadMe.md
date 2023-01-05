@@ -10,7 +10,10 @@ Preriquisites:
 
 Description of components:
 1. quickstart.sh: is a simple shell script that represents an application inside the container
-2. Dockerfile: is thee Build configuration script
+2. Dockerfile: is the Build configuration script
 3. cloud-build.sh : contains a sequence of commands that 
-    > make the quickstart.sh script executable
+
+How to Run: 
+    >Navigate to Linux cmd prompt and execute `chmod +x cloud-build.sh` to convert to an executable
+    > triggers the conversion and execution of the quickstart.sh shell script into an executable 
     > builds and pushes the Docker container image in Cloud Build
